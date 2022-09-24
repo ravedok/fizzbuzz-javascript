@@ -1,17 +1,20 @@
 function fizzbuzz(number) {
+  const isFizz = (number) => number % 3 === 0;
+  const isBuzz = (number) => number % 5 === 0;
+
   if (number === 0) {
     return 0;
   }
 
-  if (number % 3 === 0 && number % 5 === 0) {
+  if (isFizz(number) && isBuzz(number)) {
     return "fizzbuzz";
   }
 
-  if (number % 3 === 0) {
+  if (isFizz(number)) {
     return "fizz";
   }
 
-  if (number % 5 === 0) {
+  if (isBuzz(number)) {
     return "buzz";
   }
 
