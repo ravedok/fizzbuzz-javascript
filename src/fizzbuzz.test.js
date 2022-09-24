@@ -7,4 +7,11 @@ describe("fizzbuzz", () => {
 
     expect(expected).toBe(result);
   });
+
+  test("Shoud return fizz when receives 3", () => {
+    const result = fizzbuzz(3);
+    const expected = "fizz";
+
+    expect(expected).toBe(result);
+  });
 });
