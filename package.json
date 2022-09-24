@@ -1,0 +1,23 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravedok/fiizzbuz-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravedok/fiizzbuz-typescript/issues"
+  },
+  "homepage": "https://github.com/ravedok/fiizzbuz-typescript#readme",
+  "devDependencies": {
+    "ts-jest": "^29.0.2"
+  }
+}
