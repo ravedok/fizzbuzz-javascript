@@ -3,6 +3,10 @@ function fizzbuzz(number) {
     return "fizz";
   }
 
+  if (number === 5) {
+    return "buzz";
+  }
+
   return number;
 }
 
