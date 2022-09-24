@@ -35,4 +35,11 @@ describe("fizzbuzz", () => {
 
     expect(expected).toBe(result);
   });
+
+  test("Should return fizzbuzz when receives a multiple of 3 and 5", () => {
+    const result = fizzbuzz(15);
+    const expected = "fizzbuzz";
+
+    expect(expected).toBe(result);
+  });
 });
