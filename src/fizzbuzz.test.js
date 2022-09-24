@@ -49,4 +49,10 @@ describe("fizzbuzz", () => {
 
     expect(expected).toBe(result);
   });
+
+  test("Should return error when receives not number", () => {
+    expect(() => fizzbuzz("15")).toThrow(
+      "The entered parameter is not a number."
+    );
+  });
 });
