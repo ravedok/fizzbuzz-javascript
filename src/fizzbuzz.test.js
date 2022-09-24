@@ -42,4 +42,11 @@ describe("fizzbuzz", () => {
 
     expect(expected).toBe(result);
   });
+
+  test("Should return 0 when receives 0", () => {
+    const result = fizzbuzz(0);
+    const expected = 0;
+
+    expect(expected).toBe(result);
+  });
 });
